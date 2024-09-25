@@ -1,0 +1,326 @@
+.home {
+  @media (max-width: 900px) {
+    background-position:
+      right bottom,
+      center bottom 5px,
+      center;
+  }
+
+  a {
+    position: absolute;
+    bottom: 3rem;
+  }
+
+  &-cta {
+    margin-left: 15rem;
+    color: white;
+    width: 500px;
+
+    @media (max-width: 900px) {
+      margin-left: 1rem;
+    }
+
+    h2 {
+      font-weight: 200;
+      font-size: 3rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    h3 {
+      font-weight: 200;
+      color: var(--primary);
+      font-size: 2rem;
+    }
+  }
+  &-toast {
+    position: absolute;
+    z-index: 10000;
+  }
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 900px;
+  background-color: black;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  &-video {
+    position: relative;
+    width: 50%;
+    height: 700px;
+
+    @media (max-width: 900px) {
+      // margin-top: 4rem;
+      height: 300px;
+      width: 100%;
+    }
+  }
+
+  &-video iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 0 1rem 1rem 0;
+    top: 0;
+    // opacity: 0.5;
+  }
+
+  &-video-overlay {
+    top: 0;
+    opacity: 0.3;
+    height: 100%;
+    background-color: #000;
+    border-radius: 0 1rem 1rem 0;
+  }
+
+  &_right {
+    color: var(--white);
+    margin-left: 5rem;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 3rem;
+
+    @media (max-width: 900px) {
+      margin-left: 1rem;
+    }
+
+    button {
+      margin-top: 5rem;
+      line-height: 20px;
+    }
+  }
+
+  &-divider1 {
+    position: absolute;
+    bottom: -18%;
+  }
+}
+
+.family {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('/img/borders/border-white-top.png'), linear-gradient(to right bottom, #f732949c, #f73294),
+    url('https://www.ashbergortho.com/getattachment/13ed0e9f-9b9e-4fc3-928e-1db2fcf4966c/palm-beach-florida?maxsidesize=1900');
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: contain, cover, cover;
+
+  &__group {
+    h2 {
+      color: white;
+      font-size: 3.5rem;
+      font-weight: 400;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+  }
+
+  &__locations {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    @media (max-width: 900px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &--single {
+      width: 400px;
+      height: 100%;
+      margin: 0 1rem;
+
+      @media (max-width: 900px) {
+        margin-bottom: 4rem;
+      }
+
+      &_img {
+        margin-bottom: 1rem;
+        min-height: 300px;
+      }
+
+      &-box {
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: var(--white);
+
+        h3 {
+          font-size: 1.5rem;
+          margin-bottom: 0;
+        }
+
+        button {
+          background-color: var(--black);
+          border: none;
+          border-radius: 2rem;
+          color: var(--white);
+          font-size: 10px;
+          padding: 0.5rem 1rem;
+        }
+      }
+    }
+  }
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 1000px;
+  background-image: url('/img/border-bottom-orange.png'),
+    linear-gradient(to right bottom, rgb(249 249 249 / 90%), rgb(249 249 249 / 20%)), url('/img/home/search-bk.png');
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: contain, cover, cover;
+
+  @media (max-width: 900px) {
+    padding: 0 4rem;
+  }
+
+  h2 {
+    color: var(--primary);
+    font-size: 3.5rem;
+    font-weight: 400;
+  }
+
+  h3 {
+    font-weight: 300;
+    b {
+      color: var(--primary);
+    }
+  }
+  input {
+    width: 600px;
+    margin-top: 2rem;
+    padding: 1rem;
+    border: solid 1px var(--gray-light);
+    border-radius: 10px;
+
+    @media (max-width: 900px) {
+      width: 100%;
+    }
+  }
+}
+
+.widgets {
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    height: 1200px;
+  }
+
+  img {
+    margin-bottom: 1rem;
+  }
+
+  &-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    color: var(--primary);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 250;
+    padding: 1rem 2rem;
+    text-align: center;
+
+    @media (max-width: 900px) {
+      width: 80%;
+      height: auto;
+    }
+  }
+}
+
+.maintaining {
+  height: 900px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: var(--white);
+  background-image: linear-gradient(to right bottom, rgb(0 0 0 / 90%), rgb(0 0 0 / 20%)),
+    url('https://techhubsouthflorida.org/wp-content/uploads/2023/01/sjc-156-1-scaled.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: top, bottom, center;
+
+  @media (max-width: 900px) {
+    justify-content: center;
+    padding: 4rem;
+  }
+
+  @media (max-width: 200px) {
+    // background-position-x: none;
+    // padding: 4rem;
+    background-color: red;
+  }
+}
+
+// .contact {
+//   height: 600px;
+//   display: flex;
+//   justify-content: space-between;
+
+//   @media (max-width: 900px) {
+//     flex-direction: column;
+
+//     &__contact {
+//       width: 60%;
+//       display: flex;
+//       justify-content: center;
+//       align-items: flex-start;
+//       flex-direction: column;
+//       color: var(--white);
+//       height: 80%;
+//       white-space: nowrap;
+
+//       button {
+//         margin-bottom: 1rem;
+//         padding: 0.5rem 2rem;
+//       }
+
+//       img {
+//         margin: 1rem 0;
+//         margin-right: 1.3rem;
+
+//         @media (max-width: 900px) {
+//           width: 30px;
+//         }
+//       }
+
+//       a {
+//         font-size: 1.3rem;
+//         text-decoration: none;
+//         color: white;
+//         padding-bottom: 1rem;
+//       }
+
+//       hr {
+//         border-top: 1px solid var(--gray-light);
+//         opacity: 1;
+//         width: 100%;
+//         color: green;
+//       }
+//     }
+//   }
+// }
