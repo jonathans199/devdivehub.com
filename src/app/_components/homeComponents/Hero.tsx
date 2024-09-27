@@ -24,18 +24,17 @@ export default function Hero() {
 						<img alt='' src='/images/logos/devdive-logo-with-techhub.svg' className='h-72 w-auto' />
 					</div>
 					<div className='text-center'>
-						
 						<p className='mt-6 text-lg leading-8 text-gray-600'>
-              Join us for the DevDive Meetup, a monthly in-person developer workshop happening in the South Florida area.
+							DevDive&apos;s monthly meetup is a hands-on workshop, keyboard-driven event where developers of all levels
+							come together to learn from one another, share knowledge, and network. Each session is focused on
+							practical learning, allowing participants to pick up new tools, sharpen their skills, and collaborate with
+							fellow tech enthusiasts in a supportive and interactive environment.
 						</p>
 						<div className='mt-10 flex items-center justify-center gap-x-6'>
 							<a
-								href='/'
+								href='mailto:devdivehub@gmail.com'
 								className='rounded-md bg-pink-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-pink-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'>
 								Get Involved
-							</a>
-							<a href='#' className='text-sm font-semibold leading-6 text-gray-900'>
-								Learn more <span aria-hidden='true'>→</span>
 							</a>
 						</div>
 					</div>

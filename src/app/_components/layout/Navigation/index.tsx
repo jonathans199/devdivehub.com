@@ -4,7 +4,7 @@ import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { useState } from 'react'
 
-const navigation = [{ name: 'About DevDive', href: '#' }]
+const navigation = [{ name: 'Contact Us', href: 'mailto:devdivehub@gmail.com' }]
 
 export default function Navigation() {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -45,11 +45,7 @@ export default function Navigation() {
 					<div className='flex items-center justify-between'>
 						<a href='#' className='-m-1.5 p-1.5'>
 							<span className='sr-only'>Your Company</span>
-							<img
-								alt=''
-								src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
-								className='h-8 w-auto'
-							/>
+							<img alt='' src='/images/logos/devdive-logo-dark.svg' className='h-8 w-auto' />
 						</a>
 						<button
 							type='button'
@@ -71,13 +67,13 @@ export default function Navigation() {
 									</a>
 								))}
 							</div>
-							<div className='py-6'>
+							{/* <div className='py-6'>
 								<a
 									href='#'
 									className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>
 									Log in
 								</a>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</DialogPanel>

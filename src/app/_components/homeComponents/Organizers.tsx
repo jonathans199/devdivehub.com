@@ -1,3 +1,22 @@
+/* eslint-disable @next/next/no-img-element */
+import {
+	FaEnvelope,
+	FaFacebook,
+	FaFirefoxBrowser,
+	FaHtml5,
+	FaInstagram,
+	FaInternetExplorer,
+	FaLinkedinIn,
+	FaPage4,
+	FaPhone,
+	FaSafari,
+	FaSitemap,
+	FaSuitcase,
+	FaTwitter,
+	FaWordpressSimple,
+	FaYoutube,
+} from 'react-icons/fa'
+
 export default function Organizers() {
 	return (
 		<div className='bg-gray-50'>
@@ -9,8 +28,11 @@ export default function Organizers() {
 							DevDive&apos;s Organizers
 						</h2>
 						<p className='mt-3 max-w-3xl text-lg text-gray-600'>
-							Our patented padded snack sleeve construction protects your favorite treats from getting smooshed during
-							all-day adventures, long shifts at work, and tough travel schedules.
+							We host DevDive&apos;s monthly meetup to foster a thriving community of developers who are passionate
+							about learning and growing together. By creating a collaborative space where attendees can share
+							knowledge, network, and enhance their skills, we aim to bridge the gap between theory and practice. Our
+							goal is to empower developers to stay at the forefront of technology while building meaningful connections
+							within the local tech scene.
 						</p>
 					</div>
 
@@ -23,10 +45,19 @@ export default function Organizers() {
 									className='h-full w-full object-cover object-center'
 								/>
 							</div>
-							<p className='mt-8 text-base text-gray-500'>
-								The 20L model has enough space for 370 candy bars, 6 cylinders of chips, 1220 standard gumballs, or any
-								combination of on-the-go treats that your heart desires. Yes, we did the math.
+							<h2 className='font-bold text-slate-800 text-lg my-3'>Rebecca Bakels</h2>
+							<p className='text-base text-gray-500'>
+								Software engineer and tech community advocate at CITY Furniture based out of South Florida with a
+								mission to continuously grow and encourage others to start their journey in tech
 							</p>
+							<div className='flex space-x-6 md:order-2 mt-5'>
+								<a
+									href='https://www.linkedin.com/in/rebecca-bakels/'
+									target='_blank'
+									className='text-gray-400 hover:text-gray-500'>
+									<FaLinkedinIn size='20' />
+								</a>
+							</div>
 						</div>
 						<div>
 							<div className='aspect-h-2 aspect-w-3 w-full overflow-hidden rounded-lg'>
@@ -36,10 +67,26 @@ export default function Organizers() {
 									className='h-full w-full object-cover object-center'
 								/>
 							</div>
-							<p className='mt-8 text-base text-gray-500'>
-								Up your snack organization game with multiple compartment options. The quick-access stash pouch is ready
-								for even the most unexpected snack attacks and sharing needs.
+
+							<h2 className='font-bold text-slate-800 text-lg my-3'>Jonathan Sanchez</h2>
+							<p className='text-base text-gray-500'>
+								A passionate hands on CTO and software engineer who loves building solutions that impact people&apos;s
+								lives, by making software accessible and less scary, trying to make difference in the tech community.
 							</p>
+							<div className='flex space-x-6 md:order-2 mt-5'>
+								<a href='https://www.linkedin.com/in/jonathansanchez199/' className='text-gray-400 hover:text-gray-500'>
+									<FaLinkedinIn size='20' />
+								</a>
+								<a href='mailto:jonathans199@gmail.com' className='text-gray-400 hover:text-gray-500'>
+									<FaEnvelope size='20' />
+								</a>
+								<a href='tel:3057428820' className='text-gray-400 hover:text-gray-500'>
+									<FaPhone size='20' />
+								</a>
+								<a href='https://jonathansanchez.dev' target='_blank' className='text-gray-400 hover:text-gray-500'>
+									<FaSafari size='20' />
+								</a>
+							</div>
 						</div>
 					</div>
 				</section>

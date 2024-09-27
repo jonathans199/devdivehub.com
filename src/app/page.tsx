@@ -7,6 +7,8 @@ import styles from './home.module.scss'
 import Hero from './_components/homeComponents/Hero'
 import Events from './_components/homeComponents/Events'
 import Organizers from './_components/homeComponents/Organizers'
+import { CarouselImages } from './_components/homeComponents/Carousel'
+import { Sponsors } from './_components/homeComponents/Sponsors'
 
 const Home: NextPage = () => {
 	return (
@@ -19,7 +21,7 @@ const Home: NextPage = () => {
 			<Hero />
 
 			<section id='services' className={`${styles['maintaining']} bg-cover bg-fixed bg-center`}>
-				<div className='md:mr-24 lg:col-end-1 lg:w-full lg:max-w-lg'>
+				<div className='text-center mx-24'>
 					<h2 className=' text-4xl'>Celebrating the South Florida tech community</h2>
 					{/* <h2 className="text-white-900 text-3xl font-bold tracking-tight sm:text-4xl">International Service Center</h2> */}
 					<p className='mt-6 text-xl leading-8 text-zinc-100'>
@@ -27,17 +29,18 @@ const Home: NextPage = () => {
 						South Florida Tech Hub organization, we&rsquo;ve had a successful 2024. This workshop is a fantastic
 						opportunity to network, learn, and grow within the vibrant South Florida tech community. 🌴
 					</p>
-					<div className='mt-10 flex'>
+					<div className='mt-10'>
 						<a
-							href='/contact'
+							href='mailto:devdivehub@gmail.com'
 							className='rounded-md bg-pink-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-icp-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'>
-							Get your tickets today! <span aria-hidden='true'>&rarr;</span>
+							Get involved <span aria-hidden='true'>&rarr;</span>
 						</a>
 					</div>
 				</div>
 			</section>
-
+			<Sponsors />
 			<Organizers />
+			<CarouselImages />
 			<Events />
 
 			{/* <div className='bg-white'>
