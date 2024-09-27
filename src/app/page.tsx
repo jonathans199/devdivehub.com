@@ -17,6 +17,12 @@ const Home: NextPage = () => {
 				<title>Dev Dive Meetup</title>
 				<meta name='description' content='Dev Dive Meetup' />
 				<link rel='icon' href='/favicon.ico' />
+				<meta name='viewport' content='width=device-width, initial-scale=1' />
+				<meta property='og:title' content='Dev Dive Meetup' />
+				<meta property='og:description' content='Join us for the Dev Dive Monthly Meetup Workshop for developers!' />
+				<meta property='og:image' content='/images/logos/devdive-logo-dark.svg' />
+				<meta property='og:url' content='https://www.devdivehub.com' />
+				<meta property='og:type' content='website' />
 			</Head>
 			<Hero />
 
