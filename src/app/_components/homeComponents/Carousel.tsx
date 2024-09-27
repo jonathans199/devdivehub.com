@@ -2,7 +2,7 @@ import { Carousel } from 'flowbite-react'
 
 export const CarouselImages = () => {
 	return (
-		<div className='h-[500px] xl:h-80'>
+		<div className='h-[700px]'>
 			<Carousel>
 				<img src='/images/home/carousel-1.jpeg' alt='...' />
 				<img src='/images/home/carousel-2.jpeg' alt='...' />
