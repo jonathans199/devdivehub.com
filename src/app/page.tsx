@@ -15,14 +15,23 @@ const Home: NextPage = () => {
 		<>
 			<Head>
 				<title>Dev Dive Meetup</title>
-				<meta name='description' content='Dev Dive Meetup' />
+				<meta name='description' content='Unique in person workshops for developers to learn and grow together' />
 				<link rel='icon' href='/favicon.ico' />
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<meta property='og:title' content='Dev Dive Meetup' />
-				<meta property='og:description' content='Join us for the Dev Dive Monthly Meetup Workshop for developers!' />
+				<meta
+					property='og:description'
+					content='Unique in person workshops for developers to learn and grow together'
+				/>
 				<meta property='og:image' content='/images/logos/devdive-logo-dark.svg' />
 				<meta property='og:url' content='https://www.devdivehub.com' />
 				<meta property='og:type' content='website' />
+				<meta property='og:site_name' content='Dev Dive Meetup' />
+				<meta property='og:locale' content='en_US' />
+				<meta property='og:image:alt' content='Dev Dive Meetup Logo' />
+				<meta property='og:image:width' content='1200' />
+				<meta property='og:image:height' content='630' />
+				<meta property='linkedin:card' content='summary_large_image' />
 			</Head>
 			<Hero />
 
