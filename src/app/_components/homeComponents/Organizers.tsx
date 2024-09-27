@@ -1,21 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import {
-	FaEnvelope,
-	FaFacebook,
-	FaFirefoxBrowser,
-	FaHtml5,
-	FaInstagram,
-	FaInternetExplorer,
-	FaLinkedinIn,
-	FaPage4,
-	FaPhone,
-	FaSafari,
-	FaSitemap,
-	FaSuitcase,
-	FaTwitter,
-	FaWordpressSimple,
-	FaYoutube,
-} from 'react-icons/fa'
+import { FaEnvelope, FaLinkedinIn, FaPhone, FaSafari } from 'react-icons/fa'
 
 export default function Organizers() {
 	return (

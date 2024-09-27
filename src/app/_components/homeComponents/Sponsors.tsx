@@ -1,5 +1,3 @@
-import { Tooltip } from 'flowbite-react'
-
 /* eslint-disable @next/next/no-img-element */
 export const Sponsors = () => {
 	return (
@@ -52,7 +50,8 @@ export const Sponsors = () => {
 
 				<div className='mt-16 flex justify-center'>
 					<p className='relative rounded-full bg-gray-50 px-4 py-1.5 text-sm leading-6 text-gray-600 ring-1 ring-inset ring-gray-900/5'>
-						<span className='hidden md:inline'>Interested in sponsoring a future Dev Dive? </span>{'  '}
+						<span className='hidden md:inline'>Interested in sponsoring a future Dev Dive? </span>
+						{'  '}
 						<a href='mailto:devdivehub@gmail.com' className='font-semibold text-pink-600 pl-3'>
 							<span aria-hidden='true' className='absolute inset-0' /> Get in touch
 							<span aria-hidden='true'>&rarr;</span>
