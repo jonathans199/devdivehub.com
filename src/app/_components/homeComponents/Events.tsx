@@ -1,6 +1,19 @@
 /* eslint-disable @next/next/no-img-element */
 const features = [
 	{
+		name: 'Building an End-to-End test in 5 minutes with NO OpenAI!',
+		instructor: 'Damian Montero',
+		title: 'Senior Software Engineer / Teacher / Organizer & Full time Comedian',
+		date: '2021-10-10',
+		location: 'Miami, FL',
+		eventDetails:
+			'https://www.eventbrite.com/e/devdive-workshop-building-an-end-to-end-test-in-5-minutes-with-no-openai-tickets-1039376050747?aff=ebemoffollowpublishemail&ref=&utm_campaign=following_published_event&utm_content=follow_notification&utm_medium=email&utm_source=eventbrite',
+		description:
+			"Have you ever been asked by your boss to create a full integration or End-to-End test? Well, then tell them it's going to take 2 weeks and then come learn how to do it in minutes with just a couple of clicks and No A.I. or special software. This month we'll have our speaker, Damian Montero, show us how to create End-to-End tests with just your browser and zero coding. Yet, you'll end up with a sophisticated full test of any website coded in Node and ready to be shown to your friends and loved ones (if your friends and love one are your bosses and co-workers). During this workshop, we'll walk through the process, ensuring you have all the tools you need to get started. You’ll learn how to: have code that you can run just before any deployment identify if there's anything that's broken during your last release automate some tasks that you may have been doing (and do it easily)",
+		imageSrc: '/images/home/devdive-event-6.jpeg',
+		imageAlt: 'White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.',
+	},
+	{
 		name: "Introvert's guide to pair programming",
 		instructor: 'Greg Barbosa',
 		title: 'Director of Innovation and systems @ Avulux',
