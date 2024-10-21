@@ -24,7 +24,7 @@ export default function Organizers() {
 						<div>
 							<div className='aspect-h-2 aspect-w-3 w-full overflow-hidden rounded-lg'>
 								<img
-									alt='Drawstring top with elastic loop closure and textured interior padding.'
+									alt='Rebbeca Bakels'
 									src='/images/home/rebecca-bakels.jpeg'
 									className='h-full w-full object-cover object-center'
 								/>
@@ -46,7 +46,7 @@ export default function Organizers() {
 						<div>
 							<div className='aspect-h-2 aspect-w-3 w-full overflow-hidden rounded-lg'>
 								<img
-									alt='Front zipper pouch with included key ring.'
+									alt='Jonathan Sanchez'
 									src='/images/home/jonathan-sanchez.jpeg'
 									className='h-full w-full object-cover object-center'
 								/>

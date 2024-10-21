@@ -11,7 +11,7 @@ const features = [
 		description:
 			"Have you ever been asked by your boss to create a full integration or End-to-End test? Well, then tell them it's going to take 2 weeks and then come learn how to do it in minutes with just a couple of clicks and No A.I. or special software. This month we'll have our speaker, Damian Montero, show us how to create End-to-End tests with just your browser and zero coding. Yet, you'll end up with a sophisticated full test of any website coded in Node and ready to be shown to your friends and loved ones (if your friends and love one are your bosses and co-workers). During this workshop, we'll walk through the process, ensuring you have all the tools you need to get started. You’ll learn how to: have code that you can run just before any deployment identify if there's anything that's broken during your last release automate some tasks that you may have been doing (and do it easily)",
 		imageSrc: '/images/home/devdive-event-6.jpeg',
-		imageAlt: 'White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.',
+		imageAlt: 'Unique in person workshops for developers to learn and grow together',
 	},
 	{
 		name: "Introvert's guide to pair programming",
@@ -24,7 +24,7 @@ const features = [
 		description:
 			'Join us for an in-depth, hands-on workshop where you`ll learn how to harness the power of AI directly on your local machine—privately, efficiently, and free of charge. This session is designed for software developers looking to integrate AI tools into their workflow, specifically focusing on using a locally hosted Large Language Model (LLM) to interact with your own codebase.',
 		imageSrc: '/images/home/devdive-event-5.jpeg',
-		imageAlt: 'White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.',
+		imageAlt: 'Unique in person workshops for developers to learn and grow together',
 	},
 	{
 		name: 'Secure Your Bytes: Safeguarding Your Digital Life',
@@ -33,7 +33,7 @@ const features = [
 		description:
 			'A dynamic workshop designed to empower attendees with essential knowledge and practical skills in protecting personal and professional data online. Throughout this session, participants will explore the fundamentals of data privacy, learn about the potential risks and vulnerabilities associated with digital data, and delve into effective strategies for safeguarding information. Attendees will engage in hands-on activities to implement real-world data protection solutions in their own personal lives. Enhance your understanding of crucial privacy principles in today’s tech-driven world and provide you with resources to start your digital protection journey.',
 		imageSrc: '/images/home/devdive-event-4.jpeg',
-		imageAlt: 'White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.',
+		imageAlt: 'Unique in person workshops for developers to learn and grow together',
 	},
 	{
 		name: 'Spatial Design',
@@ -44,7 +44,7 @@ const features = [
 		description:
 			'Let’s dive into the world of spatial design, where you’ll learn the fundamentals of creating immersive, 3D experiences. We’ll explore principles of spatial design, how to tackle real-world problems in 3D spaces, and guide you through planning your very own spatial experience. We’ll also go over the best tools to kick-start your journey. You will leave this workshop with not just new theoretical knowledge of spatial design but a tangible detailed plan to bring your experience to life.',
 		imageSrc: '/images/home/devdive-event-2.jpeg',
-		imageAlt: 'White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.',
+		imageAlt: 'Unique in person workshops for developers to learn and grow together',
 	},
 	{
 		name: 'AI Model Training',
