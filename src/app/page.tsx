@@ -18,20 +18,24 @@ const Home: NextPage = () => {
 				<meta name='description' content='Unique in person workshops for developers to learn and grow together' />
 				<link rel='icon' href='/favicon.ico' />
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
-				<meta property='og:title' content='Dev Dive Meetup' />
-				<meta
-					property='og:description'
-					content='Unique in person workshops for developers to learn and grow together'
-				/>
-				<meta property='og:image' content='/images/logos/devdive-logo-dark.svg' />
+				<meta name='description' content='DevDive Hub - Connecting the Developer Community' />
+				{/* Open Graph Meta Tags */}
+				<meta property='og:title' content='DevDive Hub | Connecting Developers' />
+				<meta property='og:description' content='Join the DevDive community and connect with fellow developers!' />
 				<meta property='og:url' content='https://www.devdivehub.com' />
 				<meta property='og:type' content='website' />
-				<meta property='og:site_name' content='Dev Dive Meetup' />
-				<meta property='og:locale' content='en_US' />
-				<meta property='og:image:alt' content='Dev Dive Meetup Logo' />
-				<meta property='og:image:width' content='1200' />
-				<meta property='og:image:height' content='630' />
-				<meta property='linkedin:card' content='summary_large_image' />
+				{/* This is the URL of the logo image you want to use */}
+				<meta property='og:image' content='https://www.devdivehub.com/logo.png' />
+				<meta property='og:image:alt' content='DevDive Hub Logo' />
+				<meta property='og:image:type' content='image/png' />
+				<meta property='og:image:width' content='1200' /> {/* Recommended size for LinkedIn */}
+				<meta property='og:image:height' content='630' /> {/* Recommended size for LinkedIn */}
+				{/* Twitter Cards (Optional but Good for Other Platforms) */}
+				<meta name='twitter:card' content='summary_large_image' />
+				<meta name='twitter:title' content='DevDive Hub' />
+				<meta name='twitter:description' content='Join the DevDive community and connect with fellow developers!' />
+				<meta name='twitter:image' content='https://www.devdivehub.com/logo.png' />
+				<meta name='twitter:image:alt' content='DevDive Hub Logo' />
 			</Head>
 			<Hero />
 
